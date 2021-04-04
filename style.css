@@ -1,17 +1,44 @@
-#snakeboard {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background-color: #2f4f4f;
+  color: #afeeee;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  font-family: Montserrat;
+  font-size: 1rem;
+  margin: 0;
+}
+
+#canvas {
+  background-color: #d8c0d8;
+  border-radius: 0.2rem;
+}
+
+#source {
+  display: none;
 }
 
 #score {
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  color: #ffffff;
-  background-color: aquamarine;
+  color: #afeeee;
   text-align: center;
-  font-size: 4rem;
+  font-size: 1.6rem;
 }
 /*# sourceMappingURL=style.css.map */
